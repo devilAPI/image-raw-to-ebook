@@ -73,8 +73,6 @@ def images_to_epub(image_paths, output_epub, title="Untitled", author="Unknown")
     epub.write_epub(output_epub, book, {})
     print(f"\n✅ EPUB created: {output_epub}")
 
-# ...existing code...
-
 def main():
     while True:
         archive_path = input("Enter the path to the archive (zip, rar, 7z, tar, etc.): ").strip()
